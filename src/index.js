@@ -1,5 +1,8 @@
-const dere = 'abc'
+import test from './test'
 
-const abc = ({ hallo }) => `${hallo}`
+const obj = { a: 'b' }
+const spread = {
+  ...obj
+}
 
-console.log(abc({ hallo: 'ups' }))
+console.log('Started')
